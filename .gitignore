@@ -109,3 +109,5 @@ dmypy.json
 .pyre/
 
 .DS_Store
+
+Integration/*.csv
