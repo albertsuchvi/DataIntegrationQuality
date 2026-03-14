@@ -1,0 +1,30 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Teams": {
+        "type": "string"
+      },
+      "Seasons": {
+        "type": "string"
+      },
+      "Players": {
+        "type": "string"
+      },
+      "Matches": {
+        "type": "integer"
+      },
+      "Goals": {
+        "type": "integer"
+      },
+      "Assists": {
+        "type": "integer"
+      },
+      "Seasons Ratings": {
+        "type": "number"
+      }
+    },
+    "required": []
+  }
+}

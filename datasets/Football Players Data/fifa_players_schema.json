@@ -1,0 +1,163 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "full_name": {
+        "type": "string"
+      },
+      "birth_date": {
+        "type": "string",
+        "format": "date"
+      },
+      "age": {
+        "type": "integer"
+      },
+      "height_cm": {
+        "type": "number"
+      },
+      "weight_kgs": {
+        "type": "number"
+      },
+      "positions": {
+        "type": "string"
+      },
+      "nationality": {
+        "type": "string"
+      },
+      "overall_rating": {
+        "type": "integer"
+      },
+      "potential": {
+        "type": "integer"
+      },
+      "value_euro": {
+        "type": "integer"
+      },
+      "wage_euro": {
+        "type": "integer"
+      },
+      "preferred_foot": {
+        "type": "string"
+      },
+      "international_reputation(1-5)": {
+        "type": "integer"
+      },
+      "weak_foot(1-5)": {
+        "type": "integer"
+      },
+      "skill_moves(1-5)": {
+        "type": "integer"
+      },
+      "body_type": {
+        "type": "string"
+      },
+      "release_clause_euro": {
+        "type": "integer"
+      },
+      "national_team": {
+        "type": "string"
+      },
+      "national_rating": {
+        "type": "integer"
+      },
+      "national_team_position": {
+        "type": "string"
+      },
+      "national_jersey_number": {
+        "type": "integer"
+      },
+      "crossing": {
+        "type": "integer"
+      },
+      "finishing": {
+        "type": "integer"
+      },
+      "heading_accuracy": {
+        "type": "integer"
+      },
+      "short_passing": {
+        "type": "integer"
+      },
+      "volleys": {
+        "type": "integer"
+      },
+      "dribbling": {
+        "type": "integer"
+      },
+      "curve": {
+        "type": "integer"
+      },
+      "freekick_accuracy": {
+        "type": "integer"
+      },
+      "long_passing": {
+        "type": "integer"
+      },
+      "ball_control": {
+        "type": "integer"
+      },
+      "acceleration": {
+        "type": "integer"
+      },
+      "sprint_speed": {
+        "type": "integer"
+      },
+      "agility": {
+        "type": "integer"
+      },
+      "reactions": {
+        "type": "integer"
+      },
+      "balance": {
+        "type": "integer"
+      },
+      "shot_power": {
+        "type": "integer"
+      },
+      "jumping": {
+        "type": "integer"
+      },
+      "stamina": {
+        "type": "integer"
+      },
+      "strength": {
+        "type": "integer"
+      },
+      "long_shots": {
+        "type": "integer"
+      },
+      "aggression": {
+        "type": "integer"
+      },
+      "interceptions": {
+        "type": "integer"
+      },
+      "positioning": {
+        "type": "integer"
+      },
+      "vision": {
+        "type": "integer"
+      },
+      "penalties": {
+        "type": "integer"
+      },
+      "composure": {
+        "type": "integer"
+      },
+      "marking": {
+        "type": "integer"
+      },
+      "standing_tackle": {
+        "type": "integer"
+      },
+      "sliding_tackle": {
+        "type": "integer"
+      }
+    },
+    "required": []
+  }
+}
