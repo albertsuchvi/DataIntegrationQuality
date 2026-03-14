@@ -6,9 +6,31 @@ in Sports Analytics
 
 Author: Albert Such
 
+## Setting Up
+
+### 1. Create a virtual environment
+
+```bash
+python3 -m venv .venv
+```
+
+### 2. Activate the virtual environment
+
+```bash
+source .venv/bin/activate
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
 ## Project Structure
 
-### datasets
+### Datasets
 
 Contains several football (soccer) relateddatasets extracted from [Kaggle](https://kaggle.com) 
 
@@ -34,27 +56,10 @@ Contains several football (soccer) relateddatasets extracted from [Kaggle](https
   
   Football players data. Extracted from https://www.kaggle.com/datasets/abdulmalik1518/football-players-datasets-2015-2024
 
-## Getting Started
+### Integration
+Contains python notebooks for the Data Integration example
 
-### Install Dependencies
+- [Player name matching](Integration/01player_name_matching.ipynb)
 
-```bash
-pip install -r requirements.txt
-```
+- [Matching season with valuation dates](Integration/02season_valuation_date_matching.ipynb)
 
-### Run the Notebook
-
-```bash
-jupyter notebook DataIntegration.ipynb
-```
-
-## Requirements
-
-- Python 3.8+
-- Jupyter
-- pandas
-- numpy
-
-## Notes
-
-Add your data integration workflows and analyses to the notebook.
