@@ -3,3 +3,4 @@ numpy>=1.23.0
 jupyter>=1.0.0
 ipython>=8.0.0
 matplotlib>=3.5.0
+rapidfuzz>=3.0.0
