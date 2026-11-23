@@ -38,23 +38,35 @@ Contains several football (soccer) relateddatasets extracted from [Kaggle](https
 
   Detailed information about English premier League matches, seasons 14/15, 15/16, 16/17 and 17/18 in JSON format. Extracted from https://www.kaggle.com/datasets/shubhmamp/english-premier-league-match-data
 
-- *FIFA Player Stats Dataset Complete Attributes*
-
-  Extracted from https://www.kaggle.com/datasets/utsab5740/fifa-messy-raw-data
 
 - *Football Data from Transfermarkt*
 
   Data scrapped from [Transfermarkt](https://www.transfermarkt.es/) containing information
   about clubs, games, players and transfers. Extracted from https://www.kaggle.com/datasets/davidcariboo/player-scores/versions/632, also available in https://github.com/dcaribou/transfermarkt-datasets. This dataset gets updated with new information periodically
 
-- *Football Players Data*
-  
-  Football players data. Contains information about players in general, no specific to a season. Extracted from https://www.kaggle.com/datasets/maso0dahmed/football-players-data. 
+- *Football Player Market Value Trajectories*
 
+  This data is also scrapped from [Transfermarkt](https://www.transfermarkt.es/). 
+  Contains more detailed data about players valuation.
+  Extracted from https://www.kaggle.com/datasets/kanchana1990/football-transfer-value-intelligence-2024 
+  
 
 - *Football Players Datasets 2015 - 2024*
   
   Football players data. Extracted from https://www.kaggle.com/datasets/abdulmalik1518/football-players-datasets-2015-2024
+
+There are two additional datasets that are not really football based, but rather
+from the FIFA videogame. Although they do not really represent the same field, 
+they can be in some cases used to address some data quality issues.
+
+- *FIFA Player Stats Dataset Complete Attributes*
+
+  Extracted from https://www.kaggle.com/datasets/utsab5740/fifa-messy-raw-data
+
+- *Football Players Data*
+  
+  Football players data. Contains information about players in general, no specific to a season. Extracted from https://www.kaggle.com/datasets/maso0dahmed/football-players-data. 
+
 
 ### Integration
 Contains python notebooks for the Data Integration example
